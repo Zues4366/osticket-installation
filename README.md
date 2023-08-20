@@ -15,6 +15,9 @@ For the installation of osTicket, I will use Azure to set up a new virtual machi
 
 Before downloading any files, the Internet Information Services (IIS) needs to be enabled along with the CGI since we are creating the ticketing system locally.
 
+![image](https://github.com/Zues4366/osticket-installation/assets/33434045/c25f9429-f192-43d9-8353-20e8ddc39031)
+
+
 We download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi), Rewrite Module (rewrite_amd64_en-US.msi),VC_redist.x86.exe, MySQL 5.5.62 (MySQL-5.5.62-win32.msi)
 Now before we download and unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip), we need to create the directory C:\PHP in the Local Disk. We will be unzipping the contents of PHP 7.3.8 into the directory.
 
@@ -26,6 +29,7 @@ We will be enabling these extensions:
 - Enable: php_imap.dll
 - Enable: php_intl.dll
 - Enable: php_opcache.dll
+
 Refresh the osTicket site and the changes should happen.
 
 We head back into C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to rename ost-sampleconfig.php -> ost-config.php
