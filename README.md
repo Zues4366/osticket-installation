@@ -6,6 +6,11 @@
 
 For the installation of osTicket, I will use Azure to set up a new virtual machine and prep osTicket from the ground up.
 
+<h1>Environment</h1>
+
+- Microsoft Azure
+- osTicket
+
 <h1>Files Used in Lab</h1>
 
 ![image](https://github.com/Zues4366/osticket-installation/assets/33434045/f8e98e1d-d3d8-46fe-83b1-6f7a38086f09)
