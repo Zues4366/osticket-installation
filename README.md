@@ -1,5 +1,7 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+
+  ![image](https://github.com/Zues4366/osticket-installation/assets/33434045/671b0be0-428a-4c68-a9d2-4bf06063ab9f)
+
 </p>
 
 <h1>osTicket Installation</h1>
