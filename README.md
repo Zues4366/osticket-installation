@@ -23,12 +23,18 @@ Now before we download and unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip), w
 
 After these files have been installed, we open IIS as an Admin, and from there we register the PHP directory in the PHP manager, the php.cgi is in the PHP file directory that we just unzip to. This requires a restart of the IIS so we will stop and start the server.
 
+![image](https://github.com/Zues4366/osticket-installation/assets/33434045/53e13dc9-d262-43cb-8593-a704a9cdeba1)
+
+
 We can finally download and install the osTicket v.1.15.8. From the file we extract and copy the "upload" folder to C:\intelpub\wwwroot. We also rename the "upload" folder to "osTicket"
 Going back to  the IIS Manager, we go to Sites -> Default -> osTicket. We open "Browse *:80" to open osTicket in the browser. We go back to the manager to enable the extensions require to run the ticketing system.
 We will be enabling these extensions:
 - Enable: php_imap.dll
 - Enable: php_intl.dll
 - Enable: php_opcache.dll
+
+![image](https://github.com/Zues4366/osticket-installation/assets/33434045/4f7819cf-f64a-426f-a576-b2101d6ea0f9)
+
 
 Refresh the osTicket site and the changes should happen.
 
